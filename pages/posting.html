@@ -1,0 +1,94 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FR33LANC3R</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="../css/posting.css">
+</head>
+<body>
+    <header>
+       
+        <nav class=" navbar navbar-expand-lg navbar-light bg-light fixed-top navB">
+            <div class="container d-flex justify-content-between align-items-center">
+                <img class="me-5" src="../img/Logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">   
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link active text-light" aria-current="page" href="jobs.html">Browse Jobs</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link active text-light" aria-current="page" href="posting.html">Post a Project</a>
+                  </li>
+                </ul>
+                <div class="logsign ">
+                    <button class="btn btn-outline-primary me-4 "  onclick="window.location.href = 'log in.html'">Log In</button>
+                    <button class="btn btn-outline-success  " onclick="window.location.href = 'sign up.html'">Sign Up</button>
+                </div>
+                <div class="disconnect hide">
+                    <a class="nav-link active text-light" id="connected-account" aria-current="page" href=""></a>
+                    <button class="btn btn-outline-primary me-4 " onclick="disconnect()">disconnect</button>
+
+                </div>
+                    
+              </div>
+            </div>
+          </nav>
+ 
+    </header>
+    <form action="">
+        <div class="content">
+            <h1>Tell us what you need done</h1>
+            <p>Contact skilled freelancers within minutes. View profiles, ratings, portfolios and chat with them. Pay the freelancer only when you are 100% satisfied with their work.</p>
+            <div class="box ">
+                <label for="">Choose a name for your project</label>
+                <input type="text" class="form-control" id="PRtitle" placeholder="e.g. Build me a website (over 10 characters)" required>
+                <label for="">Tell us more about your project</label>
+                <textarea class="form-control" name="" id="PRdesc" cols="30" rows="10" placeholder="Describe your project here... (over 30 characters)" required></textarea>
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Drag & drop any images or documents that might be helpful in explaining your brief here (Max file size: 25 MB).</label>
+                    <input class="form-control" id="PRfilles" type="file" multiple>
+                    <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                </div>
+                <input type="button"  class="btn btn-success btnNP" value="Next" onclick="firstNext()">
+            </div>
+            
+            <div id="skills" class="skills box hide">
+                <h3 for="">What skills are required?</h3>
+                <p>
+                    Enter up to 5 skills that best describe your project. Freelancers will use these skills to find projects they are most interested and experienced in.
+                </p>
+                <select class="form-select" id="PRskills" aria-label="Default select example" onchange="selectSK()">
+                    <option selected>Open this select menu</option>
+                    
+                </select>
+                <div class="selectedVal">
+                   
+                </div>
+                <input type="button"  class="btn btn-success btnNP " value="Next" onclick="secondNext()">
+            </div> 
+            
+            <div class="price box hide" id="budget">
+                <h3 for="">What is your budget?</h3>
+                <input type="text" id="PRbud" class="form-control" placeholder="Enter the budget in dollars($)" pattern="[0-9]+" required>
+                <input type="button"  class="btn btn-success btnNP " value="Post" onclick="postForm()">
+            </div>
+            
+    </div>
+
+    </form>
+
+
+    <script src="../js/posting.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

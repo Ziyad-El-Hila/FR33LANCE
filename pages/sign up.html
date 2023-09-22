@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>FR33LANC3R</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    
+    <div class="container cont shadow p-3 mb-5 bg-body rounded">
+        <img class="logo" src="../img/logo.png" alt="Logo" onclick="window.location.href = '../index.html'">
+            <h2 class="fw-bold">FR33LANC3R</h2>
+            <h4>Sign Up</h4>
+            <hr>
+        <form action="">
+            <input type="email" class="form-control inp inpF emailS" required placeholder="Email">
+            <input type="password"  class="form-control inp inpF pwS" name="pw" id="pw" required placeholder="Password">
+            <div class="">
+                <input type="checkbox" class="form-check-input inpF checkboxAG "   name="agree" id="agree" required> <label class="fw-light" for="agree">
+                    I agree to the Freelancer <a href="#">User Agreement</a> and <a href="#">Privacy Policy</a>.</label>
+            </div>
+            
+            <button type="button"  class="btn btn-success fs-3" onclick="signup()" >JOIN US</button>
+        </form>
+        <hr>
+            <label for="">Already have an account? <a href="log in.html">Log in</a> </label>
+    </div>
+
+
+    <script src="../js/signup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+.navbar{
+    background-color: rgb(10, 31, 69) !important;
+}
+.nav-item:hover{
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+.content{
+    width: 60%;
+    min-width: 540px;
+    height: 600px;
+    margin: 10vh auto;
+    border-radius: 5px;
+}
+.box{
+border: 1px solid rgb(134, 134, 175);
+padding: 30px;
+border-radius: 5px;
+margin-bottom: 20px;
+
+}
+label{
+    margin:10px 0 ;
+}
+input,textarea{
+    margin-left: 10px;
+}
+input[type="file"]{
+    margin-top: 10px;
+    width: 50%;
+    display: inline;
+    margin-right: 30px;
+    
+}
+.btnNP{
+    margin-top: 20px;
+}
+.hide{
+    display: none;
+}
+.skclick{
+    display: inline-block;
+    margin: 20px 10px ;
+}
+#connected-account{
+    display: inline-block;
+}

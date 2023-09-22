@@ -1,0 +1,14 @@
+
+copy the content of the file "run in console" and past it in the console for a few(4) fake data(jobs)
+
+this project still not finished i wanted to add and make a lot of things 
+
+	like (when the freelancer apply for a job the freelancer's email will be sent
+to the person who posts the project in the jobs section but i used SMTP.Js and it didn't work,
+i wanted also to make the search and the sort of the the jobs ....)
+
+anyway this is my mork if you want to ask me about something you can text me
+
+please tell me if im wrong in anything
+
+i will also start learning React.js

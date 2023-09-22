@@ -1,0 +1,39 @@
+let aaa={ 
+            budget: "200",
+            description: "Texas Business Broker data extraction and Data\n\nEntry Project I need some data extraction and some\n\ndata entry from attached docs on business and\n\ncontact information for BUSINESS BROKERS\n\n(companies that facilitate the sale and purchase of\n\nbusinesses) in the following TEXAS cities and\n\nsurrounding areas: Dallas, Austin, Houston, San\n\nAntonio. I have attached an EXCEL spreadsheet with\n\nthe information columns that I need. Here is a Google\n\nMap search for \"business brokers in Dallas Fort\n\nWorth\"",
+            emailOfPoster: "elhilaziyad0@gmail.com",
+            id: 797,
+            skills: ["Excel Management", "Data Analysis", "Writing"],
+            title: "Data extraction & data entry project (TX business brokers)"
+        }
+        let aaaa={
+            budget: "65",
+            description: "Building a Transportation Management System Application for the Iphone, Android and website for United States Trucking Companies. The company name is Atlas TMS. Would like to build a trust worthy logo. Message me for more details. The application is for 18 wheelers. A concept for Atlas could be a map or the Greek Titan. I would like to incorporate a semi truck in to it, however this is not a deal breaker. I would like to just see some options",
+            emailOfPoster: "elhilaziyad0@gmail.com",
+            id:102,
+            skills: ["Graphic Design", "Editing"],
+            title: "Build and design me a logo"
+        }
+        let aa={
+            budget: "100",
+            description: "We need someone creative who can take a technical process concept (software platform) and explain it clearly with enthusiasm and highlight the system's advantages.\n\nExperience in explaining thermal management systems (HVAC) and maintenance processes is an advantage.",
+            emailOfPoster: "elhilaziyad0@gmail.com",
+            id:613,
+            skills: ["Writing", "Data Analysis", "Copywriting", "Editing"],
+            title: "Technical Copywriter/Storyteller "
+        }
+        let a={
+            budget: "250",
+            description: "Hi everyone!\n\n2D animation video required, the video is all about who's came back alive from the war, it would be around 3.5 minutes and the style of the video will be something like this: [login to view URL]\n\nWe have a lot of videos each week and already have team of animators who are working on other projects, please include your fixed-price in your proposal, otherwise it will be ignored!\n\nThe best price for value proposal will be hired immediately!\n\nBest,",
+            emailOfPoster: "elhilaziyad0@gmail.com",
+            id:654,
+            skills: ["Graphic Design", "Mobile App Development", "Video Editing"],
+            title: "2D Animation Videos Needed"
+        }
+
+        let firstrun=[];
+        firstrun.unshift(aaaa);
+        firstrun.unshift(aaa);
+        firstrun.unshift(aa);
+        firstrun.unshift(a);
+        localStorage.setItem("AllJobs",JSON.stringify(firstrun));

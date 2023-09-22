@@ -1,0 +1,44 @@
+.navbar{
+    background-color: rgb(10, 31, 69) !important;
+}
+#mainvid{
+    position: absolute;
+    top:0;
+    left:0;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+}
+.Vidcontent {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: white ;
+    padding: 20px;
+    width: 50%;
+    min-width: 70vh;
+    margin: auto;
+    margin-top: 30vh;
+    text-align: center;
+    
+}
+video {
+    display: block;
+}
+.bg-video{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -100;
+}
+.nav-item:hover{
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+.hide{
+    display: none;
+}
+#connected-account{
+    display: inline-block;
+}

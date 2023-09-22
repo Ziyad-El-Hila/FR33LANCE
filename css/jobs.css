@@ -1,0 +1,65 @@
+.navbar{
+    background-color: rgb(10, 31, 69) !important;
+}
+.nav-item:hover{
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+.content{
+    width: 60%;
+    min-width: 540px;
+    height: 600px;
+    margin: 10vh auto;
+    border-radius: 5px;
+}
+.box{
+border: 1px solid rgb(134, 134, 175);
+padding: 30px;
+border-radius: 5px;
+position: relative;
+}
+#searchInp{
+    border: none;
+}
+#searchInp:focus{
+    outline: none;
+}
+.search ,#sortsel{
+    border: 1px solid rgb(223, 223, 223);
+    padding: 2px 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#sortsel{  
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+.FLtitle{
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.mainBox{
+    padding: 20px 0;
+    position: relative;
+    
+}
+.priceSec{
+    position: absolute;
+    margin-left: 80%;
+    text-align: center;
+    
+
+}
+.FLtxt{
+    width: 80%;
+}
+.btnApp{
+    margin-top: 10px;
+}
+.hide{
+    display: none;
+}
+#connected-account{
+    display: inline-block;
+}

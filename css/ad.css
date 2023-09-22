@@ -1,0 +1,66 @@
+.navbar{
+    background-color: rgb(10, 31, 69) !important;
+}
+.nav-item:hover{
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+.content{
+    width: 60%;
+    min-width: 540px;
+    height: 600px;
+    margin: 10vh auto;
+    border-radius: 5px;
+}
+.box{
+border: 1px solid rgb(134, 134, 175);
+padding: 30px;
+border-radius: 5px;
+position: relative;
+}
+.infos{
+    background-color: #0A1F45;
+    margin-top: 10vh;
+    color: white;
+    position: relative;
+    padding: 20px;
+}
+.skills{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.FLtitle{
+    display: inline-block;
+}
+.ProjectID{
+    margin-top: 10Px;
+}
+.inp{
+    width: 40%;
+    display: inline;
+    margin-left: 5%;
+
+}
+.btnApp{ 
+    display: block;
+    margin-left: 85%;
+    margin-top: 20px;
+}
+.bidTit{
+    margin: 20px 0;
+}
+hr{
+    margin-top: 20px;
+}
+.budcl{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 25px;
+}
+.hide{
+    display: none;
+}
+#connected-account{
+    display: inline-block;
+}
